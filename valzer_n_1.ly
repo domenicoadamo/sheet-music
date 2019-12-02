@@ -5,7 +5,7 @@
 
 \score {
 
- chiavediviolino= 
+  chiavediviolino = 
   \relative c'' {
   \time 6/8
   \key e \minor
