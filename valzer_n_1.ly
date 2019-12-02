@@ -1,11 +1,11 @@
 \header {
-  title = "Untitled"
-  composer = "Composer"
+  title = "Valzer numero 1"
+  composer = "Domenico Adamo"
 }
 
 \score {
 
-  chiavediviolino = 
+  % chiavediviolino = 
   \relative c'' {
   \time 6/8
   \key e \minor
@@ -21,11 +21,10 @@
 
   fis'8 e  dis  cis b dis  cis4.       cis,     
   }
-<<
-\new Staff \chiavediviolino
-\new Staff \chiavediviolino
-
->>
+% <<
+% \new Staff \chiavediviolino
+% \new Staff \chiavediviolino
+% >>
   \layout {}
   \midi {}
 }
