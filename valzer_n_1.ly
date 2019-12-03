@@ -16,7 +16,7 @@ chiavediviolino =   \relative c'' {
    \tuplet 3/3 {g e fis}  
    \tuplet 3/3 {d e c  }
 
-   <d fis>4. <d fis>
+   <dis fis>4. <dis fis>
     a'4. g             
  
   \key cis \minor
@@ -46,7 +46,7 @@ chiavedibasso =   \relative c'' {
  a  <e' a>    <e a>
    e,  <b' e>     <b e>
 
- b,  <d f>  <d f>  
+ fis <cis' fis>  <d f>  
  b,  <d f>   <d f>
  b,  <d f>   <d f>
   \key cis \minor
