@@ -3,10 +3,7 @@
   composer = "Domenico Adamo"
 }
 
-\score {
-
- % chiavediviolino = 
-  \relative c'' {
+chiavediviolino =   \relative c'' {
   \time 6/8
   \key e \minor
 
@@ -34,10 +31,40 @@
   fis'8 e  dis  cis b dis  cis4.       cis,     
   }
 
-% <<
-% \new Staff \chiavediviolino
-% \new Staff \chiavediviolino
-% >>
+chiavedibasso =   \relative c'' {
+  \clef bass
+  \time 6/8
+  \key e \minor
+
+  e,,8 <b' e>    <b e>
+  e,  <b' e>     <b e>
+  a,  <e' a>    <e a>
+ a,  <e' a>    <e a>
+
+ b8   <dis fis>   <dis fis> 
+ b8   <dis fis>   <dis fis> 
+ a  <e' a>    <e a>
+   e,  <b' e>     <b e>
+
+ b,  <d f>  <d f>  
+ b,  <d f>   <d f>
+ b,  <d f>   <d f>
+  \key cis \minor
+  e,8 <b' e>    <b e>
+  e,  <b' e>     <b e>
+  e,8  b'       b
+  e,   b'     b 
+  }
+
+\score {
+  \new Rigo <<
+    %\set PianoStaff.instrumentName = #"Piano  "
+    \new Staff = "sopra" \chiavediviolino
+    \new Staff = "sotto" \chiavedibasso
+  >>
+  \layout { }
+  \midi { }
+}
 
   \layout {}
   \midi {}
