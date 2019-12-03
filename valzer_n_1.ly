@@ -68,14 +68,7 @@ b8   <dis fis>   <dis fis>
  cis,  <gis' cis>    <gis cis>
  cis,  <gis' cis>    <gis cis>
 
- b,  <d f>   <d f>
- b,  <d f>   <d f>
-  \key cis \minor
-  e,8 <b' e>    <b e>
-  e,  <b' e>     <b e>
-  e,8  b'       b
-  e,   b'     b 
-  }
+}
 
 \score {
   \new Rigo <<
