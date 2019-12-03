@@ -46,7 +46,7 @@ chiavedibasso =   \relative c'' {
  a  <e' a>    <e a>
    e,  <b' e>     <b e>
 
- fis <cis' fis>  <d f>  
+ fis <cis' fis>  <cis f>  
  b,  <d f>   <d f>
  b,  <d f>   <d f>
   \key cis \minor
