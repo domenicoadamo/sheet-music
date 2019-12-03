@@ -44,9 +44,19 @@ chiavedibasso =   \relative c'' {
  b8   <dis fis>   <dis fis> 
  b8   <dis fis>   <dis fis> 
  a  <e' a>    <e a>
-   e,  <b' e>     <b e>
+e,  <b' e>     <b e>
 
- fis <cis' fis>  <cis f>  
+ fis <cis' fis>  <cis fis>  
+ fis <cis' fis>  <cis fis>  
+ a,  <e' a>    <e a>
+ a,  <e' a>    <e a>
+
+f is, <cis' fis>  <cis fis>  
+ fis <cis' fis>  <cis fis>  
+ a,  <e' a>    <e a>
+ a,  <e' a>    <e a>
+
+
  b,  <d f>   <d f>
  b,  <d f>   <d f>
   \key cis \minor
