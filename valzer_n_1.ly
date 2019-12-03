@@ -1,10 +1,11 @@
 \header {
   title = "Valzer n.1"
   composer = "Domenico Adamo"
-}
 
 chiavediviolino =   \relative c'' 
 {
+  \tempo 8=120
+
   \time 6/8
   \key e \minor
 \repeat volta 2 {
@@ -75,19 +76,13 @@ b8   <dis fis>   <dis fis>
 
 
 \score {
-
   \new Rigo 
-
   <<
     %\set PianoStaff.instrumentName = #"Piano  "
     \new Staff = "sopra" \chiavediviolino
     \new Staff = "sotto" \chiavedibasso
-  >>
-
+>>
   \layout { }
   \midi { }
-}
 
-  \layout {}
-  \midi {}
 }
