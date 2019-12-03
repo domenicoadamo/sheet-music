@@ -3,10 +3,11 @@
   composer = "Domenico Adamo"
 }
 
-chiavediviolino =   \relative c'' {
+chiavediviolino =   \relative c'' 
+{
   \time 6/8
   \key e \minor
-
+\repeat volta 2 {
   \tuplet 3/3 {b'16-4 g-2 a-4}
   \tuplet 3/3 {fis-> g e }  
   \tuplet 3/3 {fis d e  }
@@ -17,7 +18,9 @@ chiavediviolino =   \relative c'' {
    \tuplet 3/3 {d e c  }
 
    <dis fis>4. <dis fis>
-    a'4. g             
+    a'4. g        
+
+    }     
  
   \key cis \minor
   fis8 gis   a   cis   dis   fis  \bar "|" e4. a, 
@@ -70,12 +73,17 @@ b8   <dis fis>   <dis fis>
 
 }
 
+
 \score {
-  \new Rigo <<
+
+  \new Rigo 
+
+  <<
     %\set PianoStaff.instrumentName = #"Piano  "
     \new Staff = "sopra" \chiavediviolino
     \new Staff = "sotto" \chiavedibasso
   >>
+
   \layout { }
   \midi { }
 }
