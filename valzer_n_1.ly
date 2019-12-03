@@ -10,7 +10,16 @@
   \time 6/8
   \key e \minor
 
-   b'16 g a fis g e fis d e c d b  c a b g a fis g e fis d e c  <d fis>4. <d fis>  a'4. g             
+     \tuplet 3/2 {b'16 g a  } 
+     \tuplet 3/2 {fis g e  }
+     \tuplet 3/2 {fis d e }
+     \tuplet 3/2 {c d b }
+     \tuplet 3/2 {c a b }
+     \tuplet 3/2 {g a fis }
+     \tuplet 3/2 {g e fis }
+     \tuplet 3/2 {d e c  }
+   <d fis>4. <d fis>
+    a'4. g             
   
   \key cis \minor
   fis8 gis   a   cis   dis   fis    e4.       a, 
@@ -25,6 +34,8 @@
 % \new Staff \chiavediviolino
 % \new Staff \chiavediviolino
 % >>
+
+
   \layout {}
   \midi {}
 }
