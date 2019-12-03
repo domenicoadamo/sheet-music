@@ -1,5 +1,5 @@
 \header {
-  title = "Valzer numero 1"
+  title = "Valzer n.1"
   composer = "Domenico Adamo"
 }
 
