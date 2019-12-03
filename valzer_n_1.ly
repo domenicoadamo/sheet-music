@@ -4,7 +4,7 @@
 
 chiavediviolino =   \relative c'' 
 {
-\override Scorr.MetronomeMark.padding = #3
+\override Score.MetronomeMark.padding = #3
   \tempo 8=120
 
   \time 6/8
