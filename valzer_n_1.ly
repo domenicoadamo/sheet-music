@@ -7,6 +7,7 @@ chiavediviolino =   \relative c''
 \override Score.MetronomeMark.padding = #4
   \tempo 8=120
 
+
   \time 6/8
   \key e \minor
 \repeat volta 2 {
@@ -25,7 +26,7 @@ chiavediviolino =   \relative c''
     }     
  
   \key cis \minor
-  fis8 gis   a   cis   dis   fis  \bar "|" e4. a, 
+  fis8 gis   a   cis   dis   fis  \bar "|" e4. gis, 
 
   fis8 gis   a   cis   dis   a'  
   
@@ -84,6 +85,8 @@ b8   <dis fis>   <dis fis>
     \new Staff = "sotto" \chiavedibasso
 >>
   \layout { }
-  \midi { }
+  \midi {
+   \tempo 8=120
+}
 
 }
