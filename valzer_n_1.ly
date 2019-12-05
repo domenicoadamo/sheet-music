@@ -26,13 +26,13 @@ chiavediviolino =   \relative c''
     }     
  
   \key cis \minor
-  fis8 gis   a   cis   dis   fis  \bar "|" e4. gis, 
+  fis8 gis   a   cis   dis   r16 fis16  \bar "|" e4. gis, 
 
-  fis8 gis   a   cis   dis   a'  
+  fis8 gis   a   cis   dis   r16 a'16  
   
   gis4. gis,
 
-  a'8 gis  fis e dis cis    e4.       a,  
+  a'8 gis  fis e dis r16 cis16    e4.       a,  
 
   fis'8 e  dis  cis b dis  cis4.       cis,     
   }
@@ -86,7 +86,7 @@ b8   <dis fis>   <dis fis>
 >>
   \layout { }
   \midi {
-   \tempo 8=120
+
 }
 
 }
