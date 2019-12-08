@@ -35,7 +35,13 @@ chiavediviolino =   \relative c''
   a'8 gis  fis e dis r16 cis16    e4.       a,  
 
   fis'8 e  dis  cis b dis  cis2.         
-  }
+ 
+% seconda parte
+ \key a \minor
+ 
+ r16 e a b c d  c4.
+  r16 e, a b c d  c4.
+ }
 
 chiavedibasso =   \relative c'' {
   \clef bass
@@ -43,8 +49,8 @@ chiavedibasso =   \relative c'' {
   \key e \minor
 
   e,,8 <b' e>    r16 <b e>16
-  e,8  <b' e>     <b e>
-  a,  <e' a>    <e a>
+  e,8  <b' e>     r16 <b e>16
+  a,8  <e' a>    <e a>
  a,  <e' a>    <e a>
 
  b8   <dis fis>   <dis fis> 
@@ -74,6 +80,12 @@ b8   <dis fis>   <dis fis>
  cis,  <gis' cis>    <gis cis>
  cis,  <gis' cis>    <gis cis>
 
+ % seconda parte
+ \key a \minor
+ a <e' a> <e a>
+ a, <e' a> <e a>
+  a, <e' a> <e a>
+ a, <e' a> <e a>
 }
 
 
