@@ -39,8 +39,8 @@ chiavediviolino =   \relative c''
 % seconda parte
  \key a \minor
  
- r16 e a b c d  c4.
-  r16 e, a b c d  c4.
+ % battuta II.1
+ r16 e a b c d  c4.   r16 e, a b c d  c4.
  }
 
 chiavedibasso =   \relative c'' {
