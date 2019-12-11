@@ -59,20 +59,23 @@ chiavedibasso =   \relative c'' {
  e,  <b' e>     <b e>
 
   \key cis \minor
- fis <cis' fis>  <cis fis>  
- fis <cis' fis>  <cis fis>  
- cis,  <gis' cis>    <gis cis>
- cis,  <gis' cis>    <gis cis>
+ fis16 a cis fis  cis a  
+ fis16 a cis fis  cis a  
 
- fis, <cis' fis>  <cis fis>  
- fis, <cis' fis>  <cis fis>  
- cis,  <gis' cis>    <gis cis>
- cis,  <gis' cis>    <gis cis>
+ cis,  e gis cis gis e 
+ cis  e gis cis gis e 
 
- fis <cis' fis>  <cis fis>  
- fis, <cis' fis>  <cis fis> 
- a  <e' a>    <e a>
- a,  <e' a>    <e a>
+ fis16 a cis fis  cis a  
+ fis16 a cis fis  cis a  
+
+ cis,  e gis cis gis e 
+ cis  e gis cis gis e 
+
+ fis16 a cis fis  cis a  
+ fis16 a cis fis  cis a  
+
+ a16  cis e a e cis 
+ a16  cis e a e cis 
 
 b8   <dis fis>   <dis fis> 
 b8   <dis fis>   <dis fis> 
@@ -90,15 +93,24 @@ b8   <dis fis>   <dis fis>
 
 
 \score {
-  \new Rigo 
-  <<
-    %\set PianoStaff.instrumentName = #"Piano  "
-    \new Staff = "sopra" \chiavediviolino
-    \new Staff = "sotto" \chiavedibasso
+<<
+        \new Staff = "Staff_violinI" {
+          \set Staff.instrumentName = #"Violin I"
+          \chiavediviolino
+        }
+
+        %\new Staff = "sopra" {
+        %    \set Staff.instrumentName = #"Piano"
+        %    \chiavediviolino
+        % }
+
+        \new Staff = "sotto" {
+            \set Staff.instrumentName = #"Piano"
+            \chiavedibasso
+         } 
+
 >>
+
   \layout { }
-  \midi {
-
-}
-
+  \midi { }
 }
